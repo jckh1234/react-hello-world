@@ -1,0 +1,23 @@
+.item {
+  /*background-color: red;*/
+
+}
+.example-enter {
+opacity: 0;
+background-color: gray;
+
+}
+.example-enter.example-enter-active {
+opacity: 1;
+
+transition: 1.3s;
+}
+@keyframes tableItem-fade {
+0% { background-color: gray;}
+100% { background-color: none; }
+}
+.tableItem
+{
+ animation: tableItem-fade 1s 1;
+
+}
